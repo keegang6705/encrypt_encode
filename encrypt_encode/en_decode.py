@@ -64,6 +64,3 @@ def decrypt(text,key):
     key_ = key
     decode_text = replace_all(key_,all,text)
     return decode(decode_text)
-
-print(encode("hello"))
-print(encrypt("hello"))
